@@ -23,6 +23,5 @@ mv "chr_rom.bin" "../../src/$name/"
 cp ../../data/Makefile "../../src/$name/"
 sed -i "s/PLACEHOLDER/${name}/g" "../../src/$name/Makefile"
 cd ../..
-rm -rf tmp
 echo "Done!"
 done
